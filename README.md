@@ -18,3 +18,13 @@ git config --global user.email trinhphuong.designer@gmail.com
 git add .
 git commit -m "message"
 git push origin head 
+
+inline > internal
+
+id > class > tagname
+
+bottom > top
+
+!important
+
+w3schools.com/cssref/css_selectors.php
