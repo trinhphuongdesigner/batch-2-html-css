@@ -2,6 +2,10 @@
   --empty: #52525224;
 }
 
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
 .site-header {
   /* position: fixed;
   top: 0;
@@ -18,10 +22,38 @@
   height: 32px;
 }
 
+.topbar > ul > li {
+  display: inline;
+  padding: 10px;
+}
+
+.topbar > ul > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #212121;
+  font-weight: 400;
+}
+
+.topbar__logo {
+  height: 18px;
+}
+
 .topbar-promotion {
   width: 100%;
   background-color: #525252;
   height: 32px;
+  text-align: center;
+}
+
+.topbar-promotion > .topbar__section {
+  color: #fff;
+  text-decoration: none;
+}
+
+.topbar__buy-now {
+  height: 18px;
+  margin-bottom: 3px;
+  margin-left: 3px;
 }
 
 .header {
