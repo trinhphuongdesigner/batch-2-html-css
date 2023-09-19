@@ -1,0 +1,59 @@
+:root {
+  --empty: #52525224;
+}
+
+.site-header {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  transition: all .3s; */
+}
+
+.topbar {
+  width: 100%;
+  background-color: antiquewhite;
+  height: 32px;
+}
+
+.topbar-promotion {
+  width: 100%;
+  background-color: #525252;
+  height: 32px;
+}
+
+.header {
+  width: 100%;
+  background-color: #212121;
+  height: 80px;
+}
+
+.running__banner {
+  width: 100%;
+  height: 600px;
+  background-color: var(--empty);
+  border-bottom: 1px solid red;
+}
+
+.running__article {
+  width: 100%;
+  height: 600px;
+  background-color: var(--empty);
+  border-bottom: 1px solid red;
+}
+
+.running__feature {
+  width: 100%;
+  height: 600px;
+  background-color: var(--empty);
+  border-bottom: 1px solid red;
+}
+
+.slider {
+  width: 100%;
+  height: 600px;
+  background-color: var(--empty);
+  border-bottom: 1px solid red;
+}
