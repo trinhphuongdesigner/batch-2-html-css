@@ -20,11 +20,35 @@ html {
   width: 100%;
   /* background-color: antiquewhite; */
   height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbar > ul:first-child {
+  margin-left: 72px;
+}
+
+.topbar > ul:last-child {
+  margin-right: 72px;
+}
+
+/* .topbar >ul:nth-child(1) {
+  margin-left: 72px;
+}
+
+.topbar >ul:nth-child(n) {
+  margin-right: 72px;
+} */
+
+.topbar > ul {
+  display: flex;
+  align-items: center;
 }
 
 .topbar > ul > li {
   display: inline;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .topbar > ul > li > a {
@@ -43,11 +67,16 @@ html {
   background-color: #525252;
   height: 32px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .topbar-promotion > .topbar__section {
   color: #fff;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .topbar__buy-now {
@@ -60,6 +89,17 @@ html {
   width: 100%;
   background-color: #212121;
   height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header > *:first-child {
+  margin-left: 72px;
+}
+
+.header > *:last-child {
+  margin-right: 72px;
 }
 
 /* .header__list > li {
@@ -74,6 +114,11 @@ html {
   display: inline;
 } */
 
+.header__list {
+  display: flex;
+  align-items: center;
+}
+
 .d-inline {
   display: inline;
 }
@@ -83,7 +128,7 @@ html {
 } */
 
 .header__item {
-  display: inline;
+  /* display: inline; */
   padding: 31px 16px;
 }
 
@@ -93,6 +138,58 @@ html {
 
 .header__item > a {
   color: white;
+}
+
+.header__search {
+  width: 210px;
+  height: 50px;
+  padding: 0 20px 0 40px;
+  border-radius: 25px;
+}
+
+.header__search:focus-visible {
+  border: none;
+  outline: none;
+}
+
+.search__box {
+  position: relative;
+}
+
+.search__icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+}
+
+.header__button {
+  width: 48px;
+  height: 48px;
+  background: transparent;
+}
+
+.user__icon, .cart__icon {
+  color: white;
+}
+
+.cart__box {
+  position: relative;
+}
+
+.cart__counter {
+  font-size: 8px;
+  background: yellow;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-100%, -100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .running__banner {
