@@ -18,7 +18,7 @@ html {
 
 .topbar {
   width: 100%;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   height: 32px;
 }
 
@@ -60,6 +60,39 @@ html {
   width: 100%;
   background-color: #212121;
   height: 80px;
+}
+
+/* .header__list > li {
+  display: inline;
+}
+
+.header__list > .header__item {
+  display: inline;
+} */
+
+/* .header__menu {
+  display: inline;
+} */
+
+.d-inline {
+  display: inline;
+}
+/* 
+.header__list {
+  display: inline;
+} */
+
+.header__item {
+  display: inline;
+  padding: 31px 16px;
+}
+
+.header__item:hover {
+  background: #3c3c3c;
+}
+
+.header__item > a {
+  color: white;
 }
 
 .running__banner {
