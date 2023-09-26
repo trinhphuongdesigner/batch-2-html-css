@@ -115,6 +115,11 @@ html {
   display: inline;
 } */
 
+.header__nav {
+  display: flex;
+  height: 100%;
+}
+
 .header__list {
   display: flex;
   align-items: center;
@@ -130,7 +135,11 @@ html {
 
 .header__item {
   /* display: inline; */
-  padding: 31px 16px;
+  padding: 0 16px;
+  height: 100%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 
 .header__item:hover {
