@@ -4,6 +4,7 @@
 
 html {
   font-family: 'Roboto', sans-serif;
+  font-size: 10px;
 }
 
 .site-header {
@@ -162,6 +163,10 @@ html {
   top: 50%;
 }
 
+.button__wrapper {
+  display: flex;
+}
+
 .header__button {
   width: 48px;
   height: 48px;
@@ -195,8 +200,12 @@ html {
 .running__banner {
   width: 100%;
   height: 600px;
-  background-color: var(--empty);
-  border-bottom: 1px solid red;
+}
+
+.banner__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .running__article {
@@ -219,3 +228,4 @@ html {
   background-color: var(--empty);
   border-bottom: 1px solid red;
 }
+

@@ -38,3 +38,7 @@ a {
 a:hover {
   opacity: .5;
 }
+
+body {
+  font-size: 1.6rem;
+}

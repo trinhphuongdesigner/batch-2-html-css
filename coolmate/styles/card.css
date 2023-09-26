@@ -1,0 +1,131 @@
+.card {
+  max-width: 300px;
+  min-width: 180px;
+}
+
+.card__top {
+  position: relative;
+}
+
+.top__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 20px);
+  margin: auto;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top__header--left {
+
+}
+
+.header__play {
+  display: inline-flex;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2px;
+  background-color: rgba(39, 37, 39, 0.68);
+}
+
+.header__play > i {
+  color: white;
+  font-size: 12px;
+}
+
+.header__rate {
+
+}
+
+.header__couter {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1em;
+  letter-spacing: .03em;
+  color: #2f5acf;
+}
+
+.top__header--right {
+
+}
+
+.header__tag--green {
+
+}
+
+.header__tag--blue {
+
+}
+
+.top__image {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.top__size {
+
+}
+
+.size__title {
+
+}
+
+.size__list {
+
+}
+
+.size__item {
+
+}
+
+.card__body {
+
+}
+
+.body__colors {
+
+}
+
+.color__item {
+
+}
+
+.card__product-name {
+
+}
+
+.card__product-color {
+
+}
+
+.card__product-price {
+
+}
+
+.price__discounted {
+
+}
+
+.price__price {
+
+}
+
+.price__discount {
+
+}
+
+.card__product-note--hightlight {
+
+}
+
+.card__product-note {
+
+}
