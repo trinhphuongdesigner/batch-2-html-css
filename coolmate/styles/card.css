@@ -93,7 +93,7 @@
   /* transform: scale(2); */
 }
 
-.image__block:hover > .top__size {
+.image__block:hover > .block__size {
   visibility: visible;
 }
 
