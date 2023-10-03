@@ -219,9 +219,8 @@ html {
 
 .running__article {
   width: 100%;
-  height: 600px;
-  background-color: var(--empty);
-  border-bottom: 1px solid red;
+  display: flex;
+  justify-content: space-between;
 }
 
 .running__feature {
@@ -238,3 +237,12 @@ html {
   border-bottom: 1px solid red;
 }
 
+.container {
+  max-width: 1920px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 55px;
+  padding-right: 55px;
+  box-sizing: border-box;
+}

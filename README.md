@@ -55,7 +55,7 @@ Lộ trình học HTML và CSS có thể được chia thành các bước cơ b
 
 2.2. *CSS Tiên Tiến:*
    - Học về CSS Box Model và làm thế nào để kiểm soát layout của trang web.
-   - Sử dụng CSS Flexbox: (display: flex, justify-content, align-items, flex-wrap, order, flex-direction, align-content, align-self, flex-grow, flex-shrink, flex-basics) và CSS Grid để tạo giao diện linh hoạt.
+   - Sử dụng CSS Flexbox: (display: flex, justify-content, align-items, flex-wrap, order, flex-direction, align-content, align-self, flex-grow, flex-shrink, flex-basics) và CSS Grid để tạo giao diện linh hoạt. initial-inherit-unset.
    - Tìm hiểu về CSS Animation và Transition để tạo hiệu ứng động trên trang web.
 
 *Bước 3: Học thêm về Responsive Design và Frameworks*
