@@ -1,7 +1,8 @@
 .card {
   /* width: calc(1810px / 4); */
-  min-width: 180px;
+  min-width: 280px;
   padding: 8px;
+  flex: 1;
 }
 
 .card__top {
