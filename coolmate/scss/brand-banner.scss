@@ -1,0 +1,46 @@
+.brand-banner {
+  padding: 9px;
+  position: relative;
+
+  &__picture {
+    width: 100%;
+    aspect-ratio: 3/2;
+  }
+
+  &__infos {
+    position: absolute;
+    bottom: 10%;
+    left: 3rem;
+  }
+  
+  .infos {
+    // position: absolute;
+    // bottom: 10%;
+
+    &__category {
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      color: #FFFFFFB5;
+    }
+
+    &__title {
+      font-size: 4.4rem;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+
+    &__btn {
+      padding: 14px 40px;
+      text-transform: uppercase;
+      border-radius: 0 20px 0 20px;
+      font-weight: bold;
+      background: white;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
