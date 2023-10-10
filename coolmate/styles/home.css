@@ -220,7 +220,7 @@ html {
 .running__article {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   /* overflow: hidden; */
   flex-wrap: wrap;
 }
