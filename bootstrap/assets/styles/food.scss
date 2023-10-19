@@ -46,59 +46,59 @@ html {
   margin-top: 60px;
 }
 
-.btn {
-  height: 62px;
-  border-radius: 16px;
-  background: linear-gradient(102deg, #46C266 41.25%, #2FB652 98.64%);
-  box-shadow: 0px 10px 20px -10px rgba(58, 186, 90, 0.16);
-  @include flex-center;
-  gap: 14px;
-  border: 0;
+// .btn {
+//   height: 62px;
+//   border-radius: 16px;
+//   background: linear-gradient(102deg, #46C266 41.25%, #2FB652 98.64%);
+//   box-shadow: 0px 10px 20px -10px rgba(58, 186, 90, 0.16);
+//   @include flex-center;
+//   gap: 14px;
+//   border: 0;
 
-  &--center {
-    margin: auto;
-    // @extend .margin-top-xl
-    @include margin-top-xl;
-  }
+//   &--center {
+//     margin: auto;
+//     // @extend .margin-top-xl
+//     @include margin-top-xl;
+//   }
 
-  &--orange {
-    background: linear-gradient(102deg, #FF6741 41.25%, #FF4415 98.64%);
-  }
+//   &--orange {
+//     background: linear-gradient(102deg, #FF6741 41.25%, #FF4415 98.64%);
+//   }
 
-  &--yellow {
-    background: linear-gradient(102deg, #FFBC2D 41.25%, #FEB618 98.64%);
-  }
+//   &--yellow {
+//     background: linear-gradient(102deg, #FFBC2D 41.25%, #FEB618 98.64%);
+//   }
 
-  &__width {
-    &--food {
-      width: 188px;
-    }
+//   &__width {
+//     &--food {
+//       width: 188px;
+//     }
 
-    &--service {
-      width: 171px;
-    }
-  }
+//     &--service {
+//       width: 171px;
+//     }
+//   }
 
-  &__title {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
+//   &__title {
+//     color: #FFF;
+//     font-family: Inter;
+//     font-size: 16px;
+//     font-style: normal;
+//     font-weight: 500;
+//     line-height: normal;
+//   }
 
-  &__icon {
-    width: 38px;
-    height: 38px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #36BA58;
-    background-color: white;
-    border-radius: 10px;
-  }
-}
+//   &__icon {
+//     width: 38px;
+//     height: 38px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     color: #36BA58;
+//     background-color: white;
+//     border-radius: 10px;
+//   }
+// }
 
 .food {
   .menu {
