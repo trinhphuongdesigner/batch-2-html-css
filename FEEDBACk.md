@@ -58,3 +58,12 @@ https://tuan-dang.vercel.app/food.html
 
 
 ----------
+Lương Thế Thiện
+https://class-html-css-git-section-1-kinns-projects.vercel.app/
+=> Nhận xét:
+  1. "Chiken Tikka Buffalo Wing" hiển thị sai => phần info bị sai
+  2. Vị trí button của card service bị sai
+  3. Responsive chưa tốt trên smartphone & tablet => UI bị lệch trái, chưa tận dụng được không gian
+  4. Section "hungry" chưa responsive tốt
+  5. Đặt tên theo BEM ở nhiều vị trí không có ý nghĩa, khó hiểu
+  6. Áp dụng bootstrap nhưng chưa tối ưu
