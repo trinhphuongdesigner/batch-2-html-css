@@ -67,3 +67,28 @@ https://class-html-css-git-section-1-kinns-projects.vercel.app/
   4. Section "hungry" chưa responsive tốt
   5. Đặt tên theo BEM ở nhiều vị trí không có ý nghĩa, khó hiểu
   6. Áp dụng bootstrap nhưng chưa tối ưu
+
+
+
+
+
+
+
+  ----
+  1. Responsive chưa thông thạo, chưa biết áp dụng
+  2. SCSS nested => Không nhận => CSS bị đè | Selector sai
+  3. Đặt tên BEM card--border {
+    border-radius: 6px
+  }
+
+  .card {
+    border-radius: 6px
+  }
+
+  Block__Element--Modify
+  Block-block__Element1__element2__element3--Modify
+  laptop__keyboard
+   keyboard__button
+
+  Cấu trúc HTML => mở rộng
+ 
