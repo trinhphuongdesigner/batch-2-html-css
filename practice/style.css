@@ -1,6 +1,8 @@
 :root {
   --gap: 30px;
-  --number: 1;
+  --number-category: 1;
+  --number-food: 1;
+  --number-service: 1;
 }
 
 * {
@@ -108,7 +110,7 @@ body {
   }
 
   #category .category {
-    width: calc((100% - (var(--gap) * (var(--number) - 1))) / var(--number));
+    width: calc((100% - (var(--gap) * (var(--number-category) - 1))) / var(--number-category));
   }
 }
 
@@ -118,7 +120,7 @@ body {
   } */
 
   #category .category {
-    width: calc((100% - (var(--gap) * (var(--number) - 1))) / var(--number));
+    width: calc((100% - (var(--gap) * (var(--number-category) - 1))) / var(--number-category));
   }
 }
 
@@ -128,7 +130,7 @@ body {
   } */
 
   :root {
-    --number: 2;
+    --number-category: 2;
   }
 }
 
@@ -150,7 +152,7 @@ body {
   }
 
   :root {
-    --number: 4;
+    --number-category: 4;
   }
 }
 
@@ -161,6 +163,6 @@ body {
   }
 
   :root {
-    --number: 5;
+    --number-category: 5;
   }
 }
