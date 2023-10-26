@@ -113,9 +113,9 @@ body {
 }
 
 @media (min-width: 576px) {
-  .wrapper {
+  /* .wrapper {
     max-width: 540px;
-  }
+  } */
 
   #category .category {
     width: calc((100% - (var(--gap) * (var(--number) - 1))) / var(--number));
@@ -123,9 +123,9 @@ body {
 }
 
 @media (min-width: 768px) {
-  .wrapper {
-    max-width: 720px;
-  }
+  /* .wrapper {
+    max-width: 720px; 
+  } */
 
   :root {
     --number: 2;

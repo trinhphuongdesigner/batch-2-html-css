@@ -2,6 +2,22 @@
 :root {
   --gap: 30px;
   --number: 1;
+
+  @media only screen and (min-width: 768px) {
+    --number: 2;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    --number: 3;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    --number: 4;
+  }
+
+  @media only screen and (min-width: 1920px) {
+    --number: 5;
+  }
 }
 
 * {
@@ -19,64 +35,48 @@ body {
 }
 
 
-// MIXIN
-@mixin media-sm-down() {
-  @media only screen and (max-width: 576px) {
-    @content
-  }
-}
+// @media only screen and (max-width: 576px) {
+//   .wrapper {
+//     max-width: 100%;
+//   }
+// :root {
+//   --number: 2;
+// }
+// }
 
-@mixin media-sm-up() {
-  @media only screen and (min-width: 576px) {
-    @content
-  }
-}
-
-@mixin media-md-up() {
-  @media only screen and (min-width: 768px) {
-    .wrapper {
-      max-width: 720px;
-    }
-  
-    :root {
-      --number: 2;
-    }
-  }
-}
-
-@mixin media-lg-up() {
-  @media only screen and (min-width: 992px) {
-    @content
-  }
-}
-
-@mixin media-xl-up() {
-  @media only screen and (min-width: 1200px) {
-    @content
-  }
-}
-
-@mixin media-xxl-up() {
-  @media only screen and (min-width: 1400px) {
-    @content
-  }
-}
-
-@mixin media-xxxl-up() {
-  @media only screen and (min-width: 1920px) {
-    @content
-  }
-}
-
+// Các media query nằm trong từng class
 .wrapper {
   max-width: 1320px;
   margin: auto;
 
-  // @include media-sm-down() {
-  //   max-width: 100%;
-  // }
-}
+  @media only screen and (max-width: 576px) {
+    max-width: 100%;
+  }
 
+  @media only screen and (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    max-width: 1320px;
+  }
+
+  @media only screen and (min-width: 1920px) {
+    max-width: 1800px;
+  }
+}
 
 // START - CATEGORY SECTION
 
@@ -119,10 +119,14 @@ body {
     position: relative;
     padding: 20px 30px;
 
+    
+  @media only screen and (max-width: 576px) {
+    width: calc((100% - (var(--gap) * (var(--number) - 1))) / var(--number));
+  }
 
-    // @include media-sm-down() {
-    //   width: calc((100% - (var(--gap) * (var(--number) - 1))) / var(--number));
-    // }
+  @media only screen and (min-width: 576px) {
+    width: calc((100% - (var(--gap) * (var(--number) - 1))) / var(--number));
+  }
 
     &__content {}
 
@@ -164,75 +168,6 @@ body {
       width: 120px;
       height: 120px;
     }
-  }
-}
-
-
-@include media-sm-down {
-  .wrapper {
-    max-width: 100%;
-  }
-
-  .section--category .category {
-    width: calc((100% - (var(--gap) * (var(--number) - 1))) / var(--number));
-  }
-}
-
-@include media-sm-up {
-  .wrapper {
-    max-width: 540px;
-  }
-
-  .section--category .category {
-    width: calc((100% - (var(--gap) * (var(--number) - 1))) / var(--number));
-  }
-}
-
-// Các class nằm trong từng mixin (media query)
-@include media-md-up {
-  .wrapper {
-    max-width: 720px;
-  }
-
-  :root {
-    --number: 2;
-  }
-}
-
-@include media-lg-up {
-  .wrapper {
-    max-width: 960px;
-  }
-}
-
-@include media-xl-up {
-  .wrapper {
-    max-width: 1140px;
-  }
-
-  :root {
-    --number: 3;
-  }
-}
-
-@include media-xxl-up {
-  .wrapper {
-    max-width: 1320px;
-  }
-
-  :root {
-    --number: 4;
-  }
-}
-
-
-@include media-xxxl-up {
-  .wrapper {
-    max-width: 1800px;
-  }
-
-  :root {
-    --number: 5;
   }
 }
 

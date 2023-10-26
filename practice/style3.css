@@ -2,6 +2,26 @@
   --gap: 30px;
   --number: 1;
 }
+@media only screen and (min-width: 768px) {
+  :root {
+    --number: 2;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  :root {
+    --number: 3;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  :root {
+    --number: 4;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  :root {
+    --number: 5;
+  }
+}
 
 * {
   padding: 0;
@@ -20,6 +40,41 @@ body {
 .wrapper {
   max-width: 1320px;
   margin: auto;
+}
+@media only screen and (max-width: 576px) {
+  .wrapper {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .wrapper {
+    max-width: 540px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    max-width: 720px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    max-width: 1140px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .wrapper {
+    max-width: 1320px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .wrapper {
+    max-width: 1800px;
+  }
 }
 
 .section--category .title {
@@ -56,6 +111,16 @@ body {
   position: relative;
   padding: 20px 30px;
 }
+@media only screen and (max-width: 576px) {
+  .section--category .category {
+    width: calc((100% - var(--gap) * (var(--number) - 1)) / var(--number));
+  }
+}
+@media only screen and (min-width: 576px) {
+  .section--category .category {
+    width: calc((100% - var(--gap) * (var(--number) - 1)) / var(--number));
+  }
+}
 .section--category .category__name {
   color: #171717;
   font-family: Inter;
@@ -90,58 +155,4 @@ body {
   right: 24px;
   width: 120px;
   height: 120px;
-}
-
-@media only screen and (max-width: 576px) {
-  .wrapper {
-    max-width: 100%;
-  }
-  .section--category .category {
-    width: calc((100% - var(--gap) * (var(--number) - 1)) / var(--number));
-  }
-}
-@media only screen and (min-width: 576px) {
-  .wrapper {
-    max-width: 540px;
-  }
-  .section--category .category {
-    width: calc((100% - var(--gap) * (var(--number) - 1)) / var(--number));
-  }
-}
-@media only screen and (min-width: 768px) {
-  .wrapper {
-    max-width: 720px;
-  }
-  :root {
-    --number: 2;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .wrapper {
-    max-width: 960px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .wrapper {
-    max-width: 1140px;
-  }
-  :root {
-    --number: 3;
-  }
-}
-@media only screen and (min-width: 1400px) {
-  .wrapper {
-    max-width: 1320px;
-  }
-  :root {
-    --number: 4;
-  }
-}
-@media only screen and (min-width: 1920px) {
-  .wrapper {
-    max-width: 1800px;
-  }
-  :root {
-    --number: 5;
-  }
-}/*# sourceMappingURL=style2.css.map */
+}/*# sourceMappingURL=style3.css.map */
